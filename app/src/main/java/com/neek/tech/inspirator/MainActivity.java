@@ -40,7 +40,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Calendar calendar = Calendar.getInstance();
-                int time =  calendar.get(Calendar.MINUTE) + 1;
+                int time =  calendar.get(Calendar.MINUTE) + 1; //TODO - For testing only, delete this.
+//                int time =  calendar.get(Calendar.HOUR_OF_DAY) + 8; //TODO - uncomment this
                 calendar.set(Calendar.MINUTE, time);
                 mScheduleManager.setAlarmForNotification(calendar);
                 scheduledTextView.setVisibility(View.VISIBLE);
