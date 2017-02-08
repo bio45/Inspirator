@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Inspirator</string>
+    <string name="notification_title">Be Inspired!</string>
+    <string name="notification_message">New Inspiration for the next 8-hours \ncheck it out now!</string>
+    <string name="start">Start</string>
+    <string name="notification_set_text">Notification set, we\'ll let you know once its ready!</string>
+</resources>
